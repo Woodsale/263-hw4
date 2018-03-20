@@ -30,7 +30,7 @@ unsigned int hash2( const std::string & key, int tableSize){
 }
 
 /*********************************************************
- *Hash function, made to have lots of collisions
+ *Hash function, made to have collisions
  *********************************************************/
 int hash3( const std::string & key, int tableSize){
 	return (key[0] + key[1] + key[2]) % tableSize;
